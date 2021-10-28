@@ -1,0 +1,30 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: #2f2e2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  width: 100vmin;
+  height: 100vmin;
+  display: grid;
+  background: #ccc;
+  grid-template-rows: repeat(21, 1fr);
+  grid-template-columns: repeat(21, 1fr);
+  box-sizing: border-box;
+  border: #8d8de5 10px solid;
+}
+
+.snake {
+  border: black 0.3vmin solid;
+  background-color: #00a2ff;
+}
+
+.food {
+  border: black 0.3vmin solid;
+  background-color: #ffd500;
+}
